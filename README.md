@@ -1,11 +1,17 @@
-# Object-detection-autonomous-vehicle
-YoloV5 Applied to object detection
+# Object detection in autonomous vehicle using YoloV5
 
-This work used the Google Colab plataform
+It is recommended to use the Google Colab plataform
 
-Yolov5: https://github.com/ultralytics/yolov5
+**Yolov5**
+https://github.com/ultralytics/yolov5
 
-Recommended reading about the Yolov5
+**Source of data**
+https://public.roboflow.com/object-detection/self-driving-car
+
+**Data cleaned used in the experiments**
+https://www.kaggle.com/tallesrodrigues/autonomous-vehicle-roboflow
+
+**Recommended reading about the Yolov5**
 Yolo explained and demystified
 https://towardsai.net/p/computer-vision/yolo-v5%E2%80%8A-%E2%80%8Aexplained-and-demystified
 
