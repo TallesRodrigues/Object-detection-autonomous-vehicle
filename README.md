@@ -12,6 +12,7 @@ https://public.roboflow.com/object-detection/self-driving-car
 https://www.kaggle.com/tallesrodrigues/autonomous-vehicle-roboflow
 
 **Recommended reading about the Yolov5**
+
 Yolo explained and demystified
 https://towardsai.net/p/computer-vision/yolo-v5%E2%80%8A-%E2%80%8Aexplained-and-demystified
 
