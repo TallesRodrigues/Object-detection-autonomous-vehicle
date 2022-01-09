@@ -125,6 +125,8 @@ dt.to_pickle('/content/drive/MyDrive/USP/dataExploration/'+"dataFrame_Clean.pkl"
 
 
 # Spliting the data between training and test
+from sklearn.model_selection import train_test_split
+
 Images_train, Images_test, label_train, label_test = train_test_split(dt['image_path'],dt['file_path'], test_size=0.33)
 print(f"Train and test  = {len(Images_train), len(Images_test)}")
 
@@ -179,5 +181,4 @@ move_images_labels(Images_test,'/content/drive/MyDrive/USP/export/test/images/',
 move_images_labels(list(Images_validation.keys()),'/content/drive/MyDrive/USP/export/valid/images/',list(Images_validation.values()),'/content/drive/MyDrive/USP/export/valid/labels/')
 
 
-from sklearn.model_selection import train_test_split
 
